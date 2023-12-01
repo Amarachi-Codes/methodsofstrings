@@ -16,11 +16,11 @@ function conCat(a, b){
 }
 
 }
-  console.log(conCat('abcd', 'cat'));
+   console.log(conCat('abcd', 'cat'));
 
 
   //getting my fundamentals right
-  
+
   // let me = "doris"
   // console.log(me[me.length-1]);
   
