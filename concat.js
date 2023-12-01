@@ -8,9 +8,23 @@
 // conCat('abc', '') → 
 
 function conCat(a, b){
-    if(a.length-1 === b.charAt(0)){
-       let cutoff = b.slice(0)
-    return cutoff 
-  }
-//    return a.concat(b) 
-  }console.log(conCat('abc', 'cat'));
+  if(a[a.length-1] === b.charAt(0)){
+     let cutoff = b.slice(1,b.length)
+     return a.concat(cutoff)
+}if(a[a.length-1] != b.charAt(0)){
+  return a+ b
+}
+
+}
+  console.log(conCat('abcd', 'cat'));
+
+
+  //getting my fundamentals right
+  
+  // let me = "doris"
+  // console.log(me[me.length-1]);
+  
+  // let firstname = "cat";
+  // console.log(typeof(firstname))
+
+  // console.log(firstname.slice(1,firstname.length));
